@@ -78,13 +78,13 @@ const Services = () => {
     return (
         <div
             id="Services"
-            className="bg-white py-12 px-4 sm:px-6 lg:px-16"
+            className="bg-white py-2 px-4 sm:px-6 lg:px-16"
         >
-            <h2 className="text-center text-4xl md:text-5xl text-[#C084FC] font-bold mb-10">
-                Category
+            <h2 className="text-center text-4xl md:text-5xl text-[#FFD93D] font-bold font-Volkhov mb-15 ">
+                SERVICES
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-15">
                 {Service.map((service, index) => (
                     <div
                         key={index}

@@ -3,8 +3,8 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="text-black px-3 py-8 md:px-20 md:py-5 bg-blak min-h-screen">
-      <h1 className="font-bold text-4xl md:text-5xl text-[#C084FC]  text-center">ABOUT US</h1>
+    <div className="text-black px-3 py-8 md:px-20 md:py-2  min-h-screen">
+      <h1 className="font-bold text-4xl md:text-5xl text-[#FFD93D] font-Volkhov  text-center ">ABOUT US</h1>
       
 
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">

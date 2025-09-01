@@ -178,7 +178,7 @@ function Home() {
   };
 
   return (
-    <div className="bg-[0b1120] text-black min-h-screen ">
+    <div className="bg- text-black min-h-screen ">
       <Nav />
 
       <div className="container mx-auto px-19 py-35 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
@@ -192,7 +192,7 @@ function Home() {
             custom={0}
             variants={textVariants}
           >
-            Wellcome To <span className="text-[#C084FC] text-6xl">Bright Hub</span>
+            Welcome To <span className="text-[#FFD93D]/100 text-6xl">BrightHub</span>
           </motion.h2>
 
           <motion.h2
@@ -214,7 +214,7 @@ function Home() {
             custom={3}
             variants={textVariants}
           >
-            <button className="rounded-2xl px-11 py-4 mt-6 bg-[#C084FC]/60 text-black font-semibold font-inter text-lg shadow-md hover:bg-[#C084FC] transition-all duration-300">
+            <button className="rounded-2xl px-11 py-4 mt-6 bg-[#FFD93D] text-black font-semibold font-inter text-lg shadow-md hover:bg-[#FFD93D]/50 transition-all duration-300">
               Start Exploring
             </button>
           </motion.div>
@@ -232,7 +232,7 @@ function Home() {
           <img
             src="images/co.jpg"
             alt="Emnet Befkadu"
-            className="relative mt-15 z-10  w-[380px] h-100 sm:w-[350px] md:w-[650px] object-cover"
+            className="relative mt-15 z-10  w-[380px] h-100 sm:w-[350px] md:w-[800px] object-cover"
           />
         </motion.div>
       </div>
