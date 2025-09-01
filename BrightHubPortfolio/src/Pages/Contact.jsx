@@ -1,6 +1,6 @@
 
 import React from 'react';
-// import { FaPhoneAlt } from 'react-icons/fa';
+import { FaPhoneAlt } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
 import Footer from './Footer';
