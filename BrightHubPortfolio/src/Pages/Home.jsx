@@ -178,42 +178,35 @@ function Home() {
   };
 
   return (
-    <div className="bg-[#0b1120] text-white min-h-screen">
+    <div className="bg-[0b1120] text-black min-h-screen ">
       <Nav />
 
-      <div className="container mx-auto px-6 py-12 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+      <div className="container mx-auto px-19 py-35 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         
         {/* Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <motion.h2
-            className="text-3xl sm:text-4xl font-bold"
+            className="text-5xl text[#C084FC] sm:text-4xl font-bol font-Volkhov"
             initial="hidden"
             animate="visible"
             custom={0}
             variants={textVariants}
           >
-            Wellcome To <span className="text-cyan-400">Bright Hub</span>
+            Wellcome To <span className="text-[#C084FC] text-6xl">Bright Hub</span>
           </motion.h2>
 
           <motion.h2
-            className="mt-4 text-lg sm:text-2xl font-medium"
+            className="mt-4 lg:text- sm:text-xl font-Lato text-gray-500"
             initial="hidden"
             animate="visible"
             custom={1}
             variants={textVariants}
           >
-            a Full Stack Developer passionate about building clean, responsive, and user-friendly web applications.
+             forward-thinking company dedicated in Crafting Digital Experiences That Work.
+            We build websites that don’t just look amazing they perform. From sleek designs to seamless functionality, BrightHub delivers custom web solutions that help your business grow online.
+           Innovative, reliable, and results driven your digital success starts here.
           </motion.h2>
 
-          <motion.h2
-            className="mt-4 text-lg sm:text-2xl font-medium"
-            initial="hidden"
-            animate="visible"
-            custom={2}
-            variants={textVariants}
-          >
-            I enjoy solving problems and bringing ideas to life through code.
-          </motion.h2>
 
           <motion.div
             initial="hidden"
@@ -221,8 +214,8 @@ function Home() {
             custom={3}
             variants={textVariants}
           >
-            <button className="rounded-full px-8 py-3 mt-6 bg-cyan-500 text-black font-bold text-lg shadow-md hover:bg-cyan-600 transition-all duration-300">
-              Resume
+            <button className="rounded-2xl px-11 py-4 mt-6 bg-[#C084FC]/60 text-black font-semibold font-inter text-lg shadow-md hover:bg-[#C084FC] transition-all duration-300">
+              Start Exploring
             </button>
           </motion.div>
         </div>
@@ -235,11 +228,11 @@ function Home() {
           whileHover={{ scale: 1.02 }}
           className="w-full md:w-1/2 flex justify-center relative"
         >
-          <div className="absolute top-6 right-6 w-[80%] h-[80%] border-4 border-cyan-500 rounded-lg z-0 hidden md:block"></div>
+          {/* <div className="absolute top-6 right-6 w-[80%] h-[80%] border-4 border-cyan-500 rounded-lg z-0 hidden md:block"></div> */}
           <img
-            src="/image.png"
+            src="images/co.jpg"
             alt="Emnet Befkadu"
-            className="relative z-10 rounded-lg shadow-lg w-[280px] sm:w-[350px] md:w-[400px] object-cover"
+            className="relative mt-15 z-10  w-[380px] h-100 sm:w-[350px] md:w-[650px] object-cover"
           />
         </motion.div>
       </div>

@@ -44,37 +44,32 @@ import Footer from './Footer';
 
 function Contact() {
   return (
-    <div className='text-white max-w-6xl mx-auto  px-4 py-15'>
-      <h1 className='text-3xl text-center mb-10 font-bold'>CONTACT ME</h1>
+    <div className='text-black max-w-6xl mx-auto  px-4 py-15'>
+      <h1 className='text-4xl md:text-5xl text-[#C084FC] text-center mb-10 font-bold'>CONTACT US</h1>
       <div className='flex flex-col md:flex-row gap-10'>
         <div className='md:w-1/2 space-y-6'>
-          <h3 className='text-2xl font-semibold'>Let's Build Together 🚀</h3>
-          <p className='  text-gray-400 leading-relaxed'>
-            As a dedicated full-stack developer, I specialize in crafting seamless, 
-            end-to-end solutions  from intuitive user interfaces to robust server-side logic. 
-            
-            With experience across a variety of technologies and languages, 
-            I'm always excited to take on new challenges and create meaningful 
-            digital experiences.
-            
-            Whether you're looking to collaborate on a project, have an idea in mind, 
-            or simply want to connect, let's make it happen!
+          <h3 className='text-2xl font-semibold'>Get in Touch with Us</h3>
+          <p className='  text-gray-800 leading-relaxed'>
+            Have a question, project idea, or just want to say hello? Our
+             team at BrightHub is here to help. Fill out the form below or
+              reach out to us via email or phone, and we’ll get back to you 
+              as soon as possible.
           </p>
 
           <div className='space-y-4'>
             <p className='flex items-center gap-2'>
               <FaPhoneAlt className="text-cyan-500 " /> 
-              <span>+251 966157244</span>
+              <span>+237679184456</span>
             </p>
             
             <p className='flex items-center gap-2'>
               <HiOutlineMail className="text-cyan-400 " /> 
-              <span>emnbef234@gmail.com</span>
+              <span>wamomackbright7@gmail.com</span>
             </p>
             
             <p className='flex items-center gap-2'>
               <span>📍</span>
-              <span>Addis Ababa, Ethiopia</span>
+              <span>Yaounde, Cameroon</span>
             </p>
           </div>
         </div>
@@ -84,19 +79,19 @@ function Contact() {
             <input 
               type="text" 
               placeholder='Name' 
-              className='w-full p-3 rounded-lg bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500'
+              className='w-full p-3 rounded-lg bg-blue-200 focus:outline-none focus:ring-2 focus:ring-cyan-500'
             />
             
             <input 
               type="email" 
               placeholder='Email' 
-              className='w-full p-3 rounded-lg  bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500'
+              className='w-full p-3 rounded-lg  bg-blue-200 focus:outline-none focus:ring-2 focus:ring-cyan-500'
             />
             
             <textarea 
               placeholder='Message' 
               rows="5"
-              className='w-full p-3 rounded-lg bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500'
+              className='w-full p-3 rounded-lg bg-blue-200 focus:outline-none focus:ring-2 focus:ring-cyan-500'
             ></textarea>
             
             <button 
