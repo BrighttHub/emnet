@@ -1,9 +1,4 @@
 
-
-
-
-
-
 import { motion } from 'framer-motion';
 import Nav from '../components/Nav';
 
@@ -53,7 +48,7 @@ function Home() {
           </motion.h2>
 
           <motion.h2
-            className="mt-4 lg:text- sm:text-xl font-Lato text-gray-500"
+            className="mt-4 text-base sm:text-lg md:text-xl font-Lato text-gray-500 leading-relaxed max-w-[700px]"
             initial="hidden"
             animate="visible"
             custom={1}

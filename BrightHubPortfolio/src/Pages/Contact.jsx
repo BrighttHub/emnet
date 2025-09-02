@@ -36,35 +36,41 @@ function Contact() {
             </p>
           </div>
         </div>
+<form 
+  action="mailto:wamomackbright7@gmail.com" 
+  method="POST" 
+  encType="text/plain"
+  className="space-y-6"
+>
+  <input 
+    type="text" 
+    placeholder="Name" 
+    name="name"
+    className="w-full p-3 rounded-lg bg-[#FFD93D]/10 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+  />
+  
+  <input 
+    type="email" 
+    placeholder="Email" 
+    name="email"
+    className="w-full p-3 rounded-lg  bg-[#FFD93D]/10 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+  />
+  
+  <textarea 
+    placeholder="Message" 
+    rows="5"
+    name="message"
+    className="w-full p-3 rounded-lg bg-[#FFD93D]/10 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+  ></textarea>
+  
+  <button 
+    type="submit"
+    className="px-6 py-3 bg-[#FFD93D] text-black rounded hover:bg-[#FFD93D]/50 transition-colors font-medium"
+  >
+    Send
+  </button>
+</form>
 
-        <div className='md:w-1/2'>
-          <form className='space-y-6'>
-            <input 
-              type="text" 
-              placeholder='Name' 
-              className='w-full p-3 rounded-lg bg-[#FFD93D]/10 focus:outline-none focus:ring-2 focus:ring-[#FFD93D]'
-            />
-            
-            <input 
-              type="email" 
-              placeholder='Email' 
-              className='w-full p-3 rounded-lg  bg-[#FFD93D]/10 focus:outline-none focus:ring-2 focus:ring-[#FFD93D]'
-            />
-            
-            <textarea 
-              placeholder='Message' 
-              rows="5"
-              className='w-full p-3 rounded-lg bg-[#FFD93D]/10 focus:outline-none focus:ring-2 focus:ring-[#FFD93D]'
-            ></textarea>
-            
-            <button 
-              type="submit"
-              className='px-6 py-3 bg-[#FFD93D] text-black rounded hover:bg-cyan-600 transition-colors font-medium'
-            >
-              Send
-            </button>
-          </form>
-        </div>
       </div>
      <Footer/>
     </div>

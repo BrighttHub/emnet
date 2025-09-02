@@ -21,25 +21,25 @@ function Nav() {
         <div className="hidden md:flex flex-1 justify-center gap-10">
           <a
             href="#home"
-            className="text-[#FFD93D] hover:text-[#FFD93D]/70 font-semibold transition-colors duration-300 text-lg"
+            className="text-[#FFD93D] hover:text-orange-400  font-inter transition-colors duration-300 text-lg"
           >
             Home
           </a>
           <a
             href="#about"
-            className="text-[#FFD93D] hover:text-[#FFD93D]/70 font-semibold transition-colors duration-300 text-lg"
+            className="text-[#FFD93D] hover:text-orange-400 font-inter transition-colors duration-300 text-lg"
           >
             About
           </a>
           <a
             href="#services"
-            className="text-[#FFD93D] hover:text-[#FFD93D]/70 font-semibold transition-colors duration-300 text-lg"
+            className="text-[#FFD93D] hover:text-orange-400 font-inter transition-colors duration-300 text-lg"
           >
             Services
           </a>
           <a
             href="#contact"
-            className="text-[#FFD93D] hover:text-[#FFD93D]/70 font-semibold transition-colors duration-300 text-lg"
+            className="text-[#FFD93D] hover:text-orange-400 font-inter transition-colors duration-300 text-lg"
           >
             Contact
           </a>

@@ -11,7 +11,6 @@ function About() {
         
 
            <div className="w-full md:w-1/2 flex justify-center relative">
-          {/* <div className="absolute top-6 right-6 w-[80%] h-[100%] border-4 border-cyan-500 rounded-md z-0 hidden md:block"></div> */}
           <img 
             src="/images/col.jpg" 
             alt="Emnet Befkadu" 
@@ -29,7 +28,6 @@ function About() {
           </p>
         </div>
 
-        {/* Image Section with border */}
        
 
       </div>
