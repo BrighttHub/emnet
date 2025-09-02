@@ -54,7 +54,7 @@ function Home() {
             custom={1}
             variants={textVariants}
           >
-             forward-thinking company dedicated in Crafting Digital Experiences That Work.
+             Forward-thinking company dedicated in Crafting Digital Experiences That Work.
             We build websites that don’t just look amazing they perform. From sleek designs to seamless functionality, BrightHub delivers custom web solutions that help your business grow online.
            Innovative, reliable, and results driven your digital success starts here.
           </motion.h2>
