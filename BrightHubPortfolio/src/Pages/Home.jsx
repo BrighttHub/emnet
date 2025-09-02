@@ -38,7 +38,7 @@ function Home() {
     <div className="bg- text-black min-h-screen ">
       <Nav />
 
-      <div className="container mx-auto px-19 py-35 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+      <div className="container mx-auto px-19 py-5 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         
         {/* Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left">
