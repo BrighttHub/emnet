@@ -37,6 +37,10 @@ function Nav() {
           >
             Services
           </a>
+          <a href="#blog" 
+          className="text-[#FFD93D] hover:text-orange-400 font-inter transition-colors duration-300 text-lg">
+            Blog
+          </a>
           <a
             href="#contact"
             className="text-[#FFD93D] hover:text-orange-400 font-inter transition-colors duration-300 text-lg"

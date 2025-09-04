@@ -31,7 +31,7 @@ const Services = () => {
     return (
         <div
             id="Services"
-            className="bg-white py-2 px-4 sm:px-6 lg:px-16"
+            className="  bg-white py-2 px-4 sm:px-6 lg:px-16"
         >
             <h2 className="text-center text-4xl md:text-5xl text-[#FFD93D] font-bold font-Volkhov mb-15 ">
                 SERVICES
@@ -41,7 +41,7 @@ const Services = () => {
                 {Service.map((service, index) => (
                     <div
                         key={index}
-                        className="bg-white p-6 rounded-xl h-85 shadow-lg text-center hover:shadow-lg transition-transform transform hover:scale-105"
+                        className=" bg-[#FFD93D]/10 bg-whie p-6 rounded-xl h-85 shadow-lg text-center hover:shadow-lg transition-transform transform hover:scale-105"
                     >
                         {/* Common image styling here */}
                         <img 

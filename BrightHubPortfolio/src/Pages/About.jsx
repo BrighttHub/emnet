@@ -20,7 +20,7 @@ function About() {
         {/* Text Section */}
         <div className="w-full md:w-1/2">
           <p className="text-gray-500 text-justify leading-relaxed text-base lg:mt-19 md:text-lg">
-      HomTec delivers world-class digital solutions in web development, UI/UX design, and technology services. We help startups and businesses build responsive websites, intuitive apps, and scalable digital products that drive growth.
+      BrightHub delivers world-class digital solutions in web development, UI/UX design, and technology services. We help startups and businesses build responsive websites, intuitive apps, and scalable digital products that drive growth.
 
       Our network of skilled designers, developers, and tech professionals ensures you get the right expertise for your unique project needs. Whether you’re launching a startup, scaling your business, or exploring AI-driven solutions, we provide flexible, innovative, and tailored support.
 
