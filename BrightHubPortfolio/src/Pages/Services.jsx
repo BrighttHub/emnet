@@ -37,11 +37,11 @@ const Services = () => {
                 SERVICES
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-15">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-12">
                 {Service.map((service, index) => (
                     <div
                         key={index}
-                        className=" bg-[#FFD93D]/10 bg-whie p-6 rounded-xl h-85 shadow-lg text-center hover:shadow-lg transition-transform transform hover:scale-105"
+                        className=" bg-[#FFD93D]/10 bg-whie p-6 rounded-xl h- shadow-lg text-center hover:shadow-lg transition-transform transform hover:scale-105"
                     >
                         {/* Common image styling here */}
                         <img 
