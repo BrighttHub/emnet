@@ -7,6 +7,7 @@ import  About from './Pages/About'
 import Services from './Pages/Services'
 import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
+import Why from './Why'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
             <section id='home'><Home/></section>
           <section id='about'><About/></section>
           <section id='Services'><Services/></section>
+          <section><Why/></section>
           <section id='blog'><Blog/></section>
           <section id='contact'><Contact/></section> 
         </div>
