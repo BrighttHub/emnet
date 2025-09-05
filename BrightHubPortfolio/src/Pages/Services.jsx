@@ -24,7 +24,7 @@ const Service = [
 
     { title: 'Brand Design', 
         description: 'Building strong and consistent brand identities through logos, colors, and visual storytelling.',
-         icon: 'images/Brand.jpeg' },
+         icon: 'images/logo.jpg' },
 ];
 
 const Services = () => {
