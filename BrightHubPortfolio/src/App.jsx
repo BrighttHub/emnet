@@ -7,7 +7,7 @@ import  About from './Pages/About'
 import Services from './Pages/Services'
 import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
-import Why from './Why'
+import Why from './Pages/Why'
 function App() {
   const [count, setCount] = useState(0)
 
